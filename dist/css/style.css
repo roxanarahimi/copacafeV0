@@ -119,9 +119,9 @@ nav ul li div {
 .scrollElement {
     scroll-margin: 62px !important;
 }
-
+/*mobile*/
 #carousel {
-    height: calc(100vh - 60px);
+    height: calc(100vh - 120px);
     margin-top: 62px;
 }
 
@@ -215,7 +215,7 @@ p {
     .scrollElement {
         scroll-margin: 103px !important;
     }
-
+/*desktop*/
     #carousel {
         height: calc(100vh - 103px) !important;
         margin-top: 103px;
