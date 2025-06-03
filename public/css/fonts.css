@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/vazir-fonts/Vazir.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/vazir-fonts/Vazir.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/vazir-fonts/Vazir.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+    font-family: 'VazirThinFD';
+    src: url('../fonts/vazir-fonts/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/vazir-fonts/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.ttf') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/vazir-fonts/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+    font-family: 'VazirThin';
+    src: url('../fonts/vazir-fonts/Vazir-Thin.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/vazir-fonts/Vazir-Thin.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/vazir-fonts/Vazir-Thin.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}

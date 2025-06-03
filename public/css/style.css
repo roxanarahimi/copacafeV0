@@ -1,0 +1,251 @@
+body, html {
+    max-width: 1535px;
+    margin: 0 auto;
+    font-family: VazirThinFD !important;
+    direction: rtl !important;
+    text-align: right !important;
+    scroll-behavior: smooth;
+    background-color: transparent;
+}
+
+* {
+    transition: all 0.3s ease !important;
+}
+
+body {
+
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    cursor: pointer !important;
+    background-color: rgba(128, 128, 128, 0.51) !important;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    /*box-shadow: inset 0 0 5px grery;*/
+    /*border-radius: 10px;*/
+    cursor: pointer !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: dimgray;
+    border-radius: 3px;
+    cursor: pointer !important;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: darkgray;
+    cursor: pointer !important;
+
+}
+
+.card {
+    border-color: #e5e5e5;
+}
+
+.category {
+    color: #004400;
+    /*background-color: whitesmoke;*/
+    width: 110px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.category-inner {
+    background-color: #e2e2e2;
+    white-space: nowrap;
+}
+
+.my-bg, .category-active {
+    background-color: #004400 !important;
+    color: white !important;
+}
+
+.my-border, .product-active, .active-product-img-active {
+    border: 1px solid #004400;
+}
+
+.my-bg a, .my-bg a:hover {
+    text-decoration: none;
+    color: white !important;
+}
+
+.my-color {
+    color: #004400 !important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.footer-img {
+    width: 85%;
+    height: auto;
+
+    cursor: pointer;
+}
+
+.footer-img:hover {
+    transform: scale(1.2, 1.2);
+    opacity: 0.7;
+}
+
+nav ul li div {
+    text-align: center !important;
+    font-weight: bold !important;
+    color: black !important;
+    cursor: pointer;
+
+}
+
+.scrollElement {
+    scroll-margin: 62px !important;
+}
+
+#carousel {
+    height: calc(100vh - 60px);
+    margin-top: 62px;
+}
+
+.products-container {
+    overflow-x: scroll;
+}
+
+.products-inner {
+    min-width: 100%;
+    display: flex;
+}
+
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    z-index: 2000 !important;
+}
+
+.loader {
+    animation: rotate 2s infinite linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+    width: 20px !important;
+    top: calc(50% - 10px);
+    right: calc(50% - 10px);
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.fill-grid {
+    display: grid;
+    grid-template-rows: 55px
+}
+
+@media (max-width: 700px) {
+::-webkit-scrollbar:vertical {
+    height: 0 !important;
+    width: 0 !important;
+    display: none !important;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+     display: none !important;
+    width: 0 !important;
+
+}
+    ::-webkit-scrollbar:horizontal {
+        height: 5px !important;
+        /*width: 5px !important;*/
+        background-color: whitesmoke !important;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb:horizontal {
+        background: dimgray;
+        border-radius: 5px;
+        cursor: pointer !important;
+    }
+
+    /*!* Handle on hover *!*/
+    /*::-webkit-scrollbar-thumb:hover {*/
+    /*    background: transparent !important;*/
+    /*}*/
+
+    .category-inner {
+        font-size: 12px;
+    }
+    .fill-grid {
+        font-size: 14px;
+        grid-template-rows: 70px;
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        margin-top: -40px;
+    }
+
+    .scrollElement {
+        scroll-margin: 103px !important;
+    }
+
+    #carousel {
+        height: calc(100vh - 103px) !important;
+        margin-top: 103px;
+    }
+
+    .products-container {
+        overflow-x: hidden;
+    }
+
+    .products-inner {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /*.ftr{*/
+    /*    padding-top: 100px;*/
+    /*}*/
+    .ftr-i {
+        margin-top: 80px
+    }
+}
+
+.slide-txt-lg {
+    background: url('/img/slideBg.png') top right no-repeat;
+    background-size: 100% !important;
+    padding-left: 10%;
+}
+
+.slide-txt-sm {
+    background: url('/img/slideBg2.png') bottom right no-repeat;
+    background-size: 100%;
+}
